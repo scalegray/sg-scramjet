@@ -1,2 +1,3 @@
-# sg-scramjet
-Realtime metric streaming engine
+#scalegray scramjet
+
+Realtime streaming engine for scalegray server monitoring
