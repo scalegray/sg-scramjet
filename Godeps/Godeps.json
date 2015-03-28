@@ -39,12 +39,12 @@
 		},
 
 		{
-			"ImportPath": "github.com/morpheyesh/libgo/amqp",
-			"Rev": "c78a8583e04649f75af8c6fb630f7d4778ad0abc"
+			"ImportPath": "github.com/scalegray/sg-golib/amqp",
+			"Rev": "9ca3df26193ceaac6d2c9e4e6324fa34329d8c85"
 		},
 		{
-			"ImportPath": "github.com/morpheyesh/libgo/cmd",
-			"Rev": "24e41a327a8aef3b333f07440219699176fa3070"
+			"ImportPath": "github.com/scalegray/sg-golib/cmd",
+			"Rev": "9ca3df26193ceaac6d2c9e4e6324fa34329d8c85"
 		},
 
 		{

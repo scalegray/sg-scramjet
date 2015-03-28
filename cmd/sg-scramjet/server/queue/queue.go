@@ -2,7 +2,7 @@ package queue
 
 import (
 	log "code.google.com/p/log4go"
-	"github.com/morpheyesh/libgo/amqp"
+	"github.com/scalegray/sg-golib/amqp"
   "fmt"
 )
 

@@ -15,7 +15,7 @@ func serverRun(dry bool) {
 
 	version, _ := config.GetString("version")
 
-	log.Info("Starting scalegray engine %s...", version)
+	log.Info("Starting scalegray Server %s...", version)
 
 	server, err := server.NewServer()
 	log.Info("Server started---> %v.", server)

@@ -3,7 +3,7 @@ package main
 
 import (
   "fmt"
-  "github.com/morpheyesh/libgo/cmd"
+  "github.com/scalegray/sg-golib/cmd"
   "github.com/tsuru/config"
   "log"
   "os"
@@ -12,15 +12,15 @@ import (
 
 const (
   version = "0.1.0"
-  header = "dd API Server"
+  header = "scalegray streaming engine"
 
 )
 
-const defaultConfigPath = "conf/dd.conf"
+const defaultConfigPath = "conf/sg-scramjet.conf"
 
 func buildManager(name string) *cmd.Manager {
 	m := cmd.BuildBaseManager(name, version, header)
-	m.Register(&DDStart{})
+	m.Register(&SGStart{})
 	return m
 }
 
