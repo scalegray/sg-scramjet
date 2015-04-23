@@ -3,6 +3,7 @@ package queue
 import (
 	log "code.google.com/p/log4go"
 	"github.com/scalegray/sg-golib/amqp"
+	"github.com/scalegray/sg-golib/db"
   "fmt"
 )
 
@@ -12,7 +13,6 @@ type QueueServer struct {
 	shutdown      chan bool
 }
 
-//interface arguments
 func NewServer(listenAddress string) *QueueServer {
 	log.Info("Create New queue server")
 	self := &QueueServer{}
@@ -39,6 +39,9 @@ func (self *QueueServer) ListenAndServe() {
 	msgChan, _ := pubsub.Sub()
 	for msg := range msgChan {
    	log.Info("Cool, data is here! B| %s", msg)
+		 elasticsearch.Index(msg)
+		//fmt.Println(resp)
+
 	}
 
 

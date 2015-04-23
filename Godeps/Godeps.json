@@ -10,6 +10,7 @@
 			"Comment": "weekly-56",
 			"Rev": "afe77d958c701557ec5dc56f6936fcc194d15520"
 		},
+                 
 		{
 			"ImportPath": "code.google.com/p/goprotobuf/proto",
 			"Comment": "go.r60-163",
@@ -40,11 +41,16 @@
 
 		{
 			"ImportPath": "github.com/scalegray/sg-golib/amqp",
-			"Rev": "9ca3df26193ceaac6d2c9e4e6324fa34329d8c85"
+			"Rev": "f250dcc32b9e23d3c9add2f5d88596df3f336097"
 		},
+                {
+                        "ImportPath": "github.com/scalegray/sg-golib/db",
+                        "Rev": "f250dcc32b9e23d3c9add2f5d88596df3f336097"
+                },
+
 		{
 			"ImportPath": "github.com/scalegray/sg-golib/cmd",
-			"Rev": "9ca3df26193ceaac6d2c9e4e6324fa34329d8c85"
+			"Rev": "f250dcc32b9e23d3c9add2f5d88596df3f336097"
 		},
 
 		{
